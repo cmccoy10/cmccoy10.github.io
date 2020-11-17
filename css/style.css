@@ -86,7 +86,7 @@ hr {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #ffffff;
-  background-color: #74cfae;
+  background-color: #21678f;
 }
 
 .navbar-brand {
@@ -97,7 +97,7 @@ hr {
 
 .btn-theme {
   color: #ffffff;
-  background-color: #74cfae;
+  background-color: #21678f;
   border-color: transparent;
 }
 
@@ -119,15 +119,15 @@ hr {
 
 #hello {
   width: 100%;
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 
 #hello h1 {
   font-size: 90px;
   font-weight: 700;
   letter-spacing: 3px;
-  color: #74cfae;
+  color: #21678f;
 }
 
 #hello h2 {
@@ -135,12 +135,31 @@ hr {
   font-weight: 400;
 }
 
+#profile-icon {
+  border: 8px solid #fff
+}
+
+#portfolio-container {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+}
+
 /* Green */
 
 #green {
-  background-color: #74cfae;
+  background-color: #21678f;
   padding-top: 50px;
+  padding-bottom: 50px;
   margin-bottom: 0px;
+  display: flex;
+  align-content: flex-end
+}
+
+#green-about {
+  display: flex;
+  align-items: center;
 }
 
 #green h3 {
@@ -164,6 +183,15 @@ hr {
   margin-top: 50px;
 }
 
+#skills-header {
+  width: 4em;
+}
+
+#skills-header-container {
+  display: flex;
+  justify-content: center;
+}
+
 #skills h3 {
   color: white;
 }
@@ -171,6 +199,25 @@ hr {
 #skills p {
   color: white;
   font-weight: 400;
+}
+
+#skills-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#skills-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+#skill-item {
+  padding-top: 2em;
+  padding-right: 2em;
+  padding-left: 2em;
 }
 
 /* Social Links */
@@ -181,7 +228,8 @@ hr {
 
 #social i {
   font-size: 50px;
-  color: #74cfae;
+  color: #21678f;
+
 }
 
 #social .col-md-3:hover {
@@ -196,7 +244,7 @@ hr {
 
 #f {
   padding-top: 20px;
-  background-color: #74cfae;
+  background-color: #21678f;
 }
 
 #f p {
@@ -216,6 +264,11 @@ hr {
 }
 
 /* Contact Form */
+
+.media-row {
+    display: flex;
+    justify-content: center;
+}
 
 .contact-form {
   padding-bottom: 40px;
@@ -238,7 +291,7 @@ hr {
 }
 
 .contact-form .form-send button  {
-  background: #74cfae;
+  background: #21678f;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -337,7 +390,7 @@ hr {
 }
 
 #copyrights a {
-  color: #74cfae;
+  color: #21678f;
 }
 
 .credits {
