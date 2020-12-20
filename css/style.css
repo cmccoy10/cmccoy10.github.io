@@ -140,10 +140,9 @@ hr {
 }
 
 #portfolio-container {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 /* Green */
