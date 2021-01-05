@@ -95,6 +95,7 @@
     </div>
   </div>
   <div id="portfolio"></div>
+
   <div class="container">
     <div class="row centered mt grid">
       <div>
@@ -102,17 +103,61 @@
       </div>
       <div class="mt"></div>
       <div id="portfolio-container">
-        <div class="portfolio-item1">
+        <div class="portfolio-item">
           <a href="http://readiumapp.herokuapp.com/"><img src="img/readium1.png" alt="" height="300em" width="500em"></a>
+          <div class="portfolio-item-description">
+              <h3>Readium</h3>
+              <h4 class="portfolio-item-list">Readium is an online publishing platform pertaining to books, inspired by Medium. Users can create, comment, and like each other's articles about their favorite books.</h4>
+              <ul class="portfolio-item-list">
+                  <li>Leveraged PUG and SASS templates to efficiently reuse story previews on a user’s profile page.</li>
+                  <li>Established User Authentication using Bcrypt to only allow access to their personal data with the
+                    correctly hashed password.</li>
+                  <li>Developed a custom responsive response drawer using AJAX and CSS to dynamically render
+                    responses ordered by most recent.</li>
+              </ol>
+          </div>
         </div>
-        <div class="portfolio-item2">
+        <div class="portfolio-item">
           <a href="https://master.d11hr0s58u56b0.amplifyapp.com/login"><img src="img/shlack1.png" alt="" height="300em" width="500em"></a>
+          <div class="portfolio-item-description">
+            <h3>Shlack</h3>
+            <h4 class="portfolio-item-list">Shlack is a communication platform designed for business. User's have the ability to access a persistent chat room, create channels, and direct message other team members.</h4>
+            <ul class="portfolio-item-list">
+                <li>Administered Socket.io to enable instant communication between multiple users within a channel.</li>
+                <li>Incorporated JSON Web Tokens to provide only permissioned users to be able to edit channels,
+                    delete channels, or add members.</li>
+                <li>Produced a PostgreSQL query to fetch messages ordered by most recently sent.</li>
+            </ol>
         </div>
-        <div class="portfolio-item3">
+        </div>
+        <div class="portfolio-item">
           <a href="https://clevernote-app.herokuapp.com/"><img src="img/clevernote.png" alt="" height="300em" width="500em"></a>
+          <div class="portfolio-item-description">
+            <h3>Clevernote</h3>
+            <h4 class="portfolio-item-list">Clevernote is a note taking app that enables you to stay organized in the best way. Notes are kept in separate notebooks for quick access. Users have the ability to tag notes with unique keywords for added easy of usability.</h4>
+            <ul class="portfolio-item-list">
+                <li>Implemented the unidirectional state management of Redux to easily access notes and then sort
+                    them based off of last modified.</li>
+                <li>Configured a custom React-Quill component to give users a fluid rich text editor that can easily
+                    save, edit, or delete notes.</li>
+                <li>Constructed a custom Regex function that parsed out HTML tags so the title and body of a note
+                    could be stored separately.</li>
+            </ol>
         </div>
-        <div class="portfolio-item4">
+        </div>
+        <div class="portfolio-item">
           <a href="https://bitbin-app.herokuapp.com/"><img src="img/bitbin-main.png" alt="" height="300em" width="500em"></a>
+          <div class="portfolio-item-description">
+            <h3>Bitbin</h3>
+            <h4 class="portfolio-item-list">Bitbin is a file hosting service designed to keep you organized. Users have the ability to upload individual files or entire directories with the ability to keep them separated in unique folders.</h4>
+            <ul class="portfolio-item-list">
+                <li>Integrated AWS S3 with a Node.js backend to store multiple media types and keep the database
+                    lightweight.</li>
+                <li>Designed a PostgreSQL database to keep track of a user’s nested folder and file structure.</li>
+                <li>Created a custom drag and drop React component to allow a seamless user experience when
+                    uploading files.</li>
+            </ol>
+        </div>
         </div>
       </div>
 
@@ -282,21 +327,21 @@
 
   </section>
 
-  <div id="copyrights">
-    <div class="container">
-      <p>
-        &copy; Copyrights <strong>Bolt</strong>. All Rights Reserved
-      </p>
-      <div class="credits">
-        <!--
-          You are NOT allowed to delete the credit link to TemplateMag with free version.
-          You can delete the credit link only if you bought the pro version.
-          Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/bolt-bootstrap-agency-template/
-          Licensing information: https://templatemag.com/license/
-        -->
-        Created with Bolt template by <a href="https://templatemag.com/">TemplateMag</a>
-      </div>
-    </div>
+  <div class="footer container">
+      <footer id="copyrights">
+        <p>
+          &copy; Copyrights <strong>Cole McCoy</strong>. All Rights Reserved
+        </p>
+        <div class="credits">
+          <!--
+            You are NOT allowed to delete the credit link to TemplateMag with free version.
+            You can delete the credit link only if you bought the pro version.
+            Buy the pro version with working PHP/AJAX contact form: https://templatemag.com/bolt-bootstrap-agency-template/
+            Licensing information: https://templatemag.com/license/
+          -->
+          Created with Bolt template by <a href="https://templatemag.com/">TemplateMag</a>
+        </div>
+      </footer>
   </div>
 
   <!-- JavaScript Libraries -->
