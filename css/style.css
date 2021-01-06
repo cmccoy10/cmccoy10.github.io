@@ -146,7 +146,8 @@ hr {
 }
 
 #profile-icon {
-  border: 8px solid #fff
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
 
 #portfolio-container {
@@ -241,7 +242,7 @@ hr {
 /* Skills */
 
 #skills {
-  background-color: #4e4e4e;
+  background-color: #183642;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-top: 50px;
@@ -292,7 +293,7 @@ hr {
 
 #social i {
   font-size: 50px;
-  color: #183642;
+  color: #481620;
 
 }
 
@@ -320,7 +321,6 @@ hr {
 /* Image Opacity */
 
 .grid img {
-  opacity: .7;
   border: 1px solid #d2d2d2;
 }
 
@@ -455,7 +455,7 @@ hr {
 }
 
 #copyrights a {
-  color: #21678f;
+  color: #A3A3A3;
 }
 
 .credits {
