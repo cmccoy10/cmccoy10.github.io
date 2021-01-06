@@ -16,6 +16,16 @@ body {
   margin-top: 70px;
 }
 
+.row-landing {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.row-landing-image {
+    margin-left: 3em;
+}
+
 /* Titles */
 
 h1, h2, h3, h4, h5, h6 {
@@ -86,7 +96,7 @@ hr {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   color: #ffffff;
-  background-color: #21678f;
+  background-color: #481620;
 }
 
 .navbar-brand {
@@ -97,7 +107,7 @@ hr {
 
 .btn-theme {
   color: #ffffff;
-  background-color: #21678f;
+  background-color: #481620;
   border-color: transparent;
 }
 
@@ -119,19 +129,19 @@ hr {
 
 #hello {
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
 #hello h1 {
   font-size: 90px;
   font-weight: 700;
   letter-spacing: 3px;
-  color: #21678f;
+  color: #481620;
 }
 
 #hello h2 {
-  color: #c0c0c0;
+  color: #A3A3A3;
   font-weight: 400;
 }
 
@@ -176,7 +186,7 @@ hr {
 
 .button-live {
     display: inline-block;
-    background-color:#21678f;
+    background-color:#481620;
     padding:0.35em 1.2em;
     border:0.1em solid #FFFFFF;
     margin:0 0.3em 0.3em 0;
@@ -203,7 +213,7 @@ hr {
 /* Green */
 
 #green {
-  background-color: #21678f;
+  background-color: #183642;
   padding-top: 50px;
   padding-bottom: 50px;
   margin-bottom: 0px;
@@ -282,7 +292,7 @@ hr {
 
 #social i {
   font-size: 50px;
-  color: #21678f;
+  color: #183642;
 
 }
 
@@ -346,7 +356,7 @@ hr {
 }
 
 .contact-form .form-send button  {
-  background: #21678f;
+  background: #481620;
   border: 0;
   padding: 10px 30px;
   color: #fff;
