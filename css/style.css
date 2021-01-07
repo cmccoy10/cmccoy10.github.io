@@ -283,6 +283,8 @@ hr {
   padding-top: 2em;
   padding-right: 2em;
   padding-left: 2em;
+  height: 10em;
+  width: 10em;
 }
 
 /* Social Links */
